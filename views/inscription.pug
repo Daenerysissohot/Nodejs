@@ -1,0 +1,30 @@
+html
+    head
+        title projet web jerem.v
+        link(rel="stylesheet",href="styles.css")
+
+    body
+        ul
+            div(class='encadretitre')
+                h2 www.boutiqueenligne.com
+                h2 Projet Jeremie VANCUTSEM
+
+            br
+            form(method="GET", action="/validerInscription")
+
+                div(class='encadrelogin')
+
+                    h3 Pas encore de compte ?
+                    h3 inscrivez vous :)
+                    br
+                    input(name="pseudo", type="text",placeholder="Pseudo")
+                    br
+                    input(name="password", type="password",placeholder="Mot de passe")
+                    br
+                    input(name="mail", type="mail",placeholder="Mail")
+                    br
+                    textarea(name="bio", cols="30", rows="10",placeholder="Bio")
+                    //input(name="bio", type="text",placeholder="Bio")
+                    br
+                    button(type="submit" class='button') S'inscrire
+                    a(href="/authentif" class='button') retour au login

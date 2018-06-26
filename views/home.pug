@@ -1,0 +1,66 @@
+html
+    head
+        title projet web jerem.v
+        link(rel="stylesheet",href="styles.css")
+
+    body
+
+        ul
+            div(class='encadretitre')
+                h2 www.boutiqueenligne.com
+                h2 Projet Jeremie VANCUTSEM
+                a(href="/authentif" class='button') deconnexion
+                a(href="cart" class='button') Panier
+
+
+            br
+            div(class='creerannonce')
+                h2 créer votre annonce :
+                form(method="GET", action="/api/product/")
+                    input(type="text", name="nom", placeholder="nom")
+                    br
+                    input(type="text", name="description", placeholder="description")
+                    br
+                    input(type="text", name="src", placeholder="Nom de l'image")
+                    p  pour l'image, ecrire :
+                    p "boite.png" ou "voiture.jpg" ou "pc.jpg"
+                    br
+                    input(type="number", name="stock", placeholder="stock")
+                    br
+                    input(type="number", name="prix", placeholder="prix")
+                    br
+                    br
+                    button(type="submit" class='button') Valider
+
+
+
+            h2 Liste des articles :
+
+            - for(i=0;i<Id.length;i++)
+
+                div(class='listearticle')
+                    p
+                        a(href="pages?id="+Id[i] class='button') #{Name[i]}
+                        br
+                        img( class='image' src="images/"+Src[i])
+                    p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

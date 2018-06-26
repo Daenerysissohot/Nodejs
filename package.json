@@ -1,0 +1,32 @@
+{
+  "name": "forum-daenerysissohot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynovforum/forum-Daenerysissohot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynovforum/forum-Daenerysissohot/issues"
+  },
+  "homepage": "https://github.com/ynovforum/forum-Daenerysissohot#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cookies": "^0.7.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "passport": "^0.4.0",
+    "pug": "^2.0.3",
+    "sequelize": "^4.37.10",
+    "url": "^0.11.0",
+    "website": "^0.1.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

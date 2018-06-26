@@ -1,0 +1,21 @@
+html
+    head
+        title projet web jerem.v
+        link(rel="stylesheet",href="styles.css")
+
+    body
+
+        ul
+            div(class='encadretitre')
+                h2 www.boutiqueenligne.com
+                h2 Projet Jeremie VANCUTSEM
+                a(href="/authentif" class='button') deconnexion
+                a(href="cart" class='button') Panier
+                a(href="/" class='button') retour à la liste
+        
+        h2 à vendre : #{Name}
+        img(src="images/"+Src class="image")
+        p description : #{Desc}
+        p prix : #{Prix} €
+        p stock: #{Stock}
+        a(href="add_to_cart?id="+Id class="button") Ajouter au panier

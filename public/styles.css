@@ -1,0 +1,66 @@
+body {
+    background-color: ghostwhite;
+    text-align: center;
+    background-image: linear-gradient(deepskyblue, white);
+}
+
+.encadrelogin {
+    background-image: linear-gradient(white,darkgrey, white);
+    border-style: double;
+    border-radius: 10px;
+    margin-right: 474px;
+    margin-left: 450px;
+    margin-bottom: 104px;
+    margin-top: 10px;
+    padding-top: 53px;
+    padding-bottom: 73px;
+}
+
+.encadretitre {
+    background-image: linear-gradient(white,darkgrey, white);
+    border-style: double;
+    border-radius: 10px;
+    border-top: 200px;
+    border-right: 600px;
+    border-left: 600px;
+}
+
+.creerannonce {
+    vertical-align: center;
+    text-align: center;
+    background-image: linear-gradient(white,darkgrey, white);
+    border-style: double;
+    margin-right: 1180px;
+    margin-left: 0px;
+}
+
+.listearticle{
+    background-image: linear-gradient(white,darkgrey, white);
+    border-style: double;
+    border-radius: 10px;
+    border-top: 200px;
+    border-right: 600px;
+    border-left: 600px;
+}
+
+.button{
+    background-image: linear-gradient(deepskyblue, darkblue);
+    border-style: double;
+    border-radius: 10px;
+    color: white;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.button:active {
+    background-color: midnightblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.image{
+    border-radius:10px;
+    border-style: outset;
+}
